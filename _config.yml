@@ -1,0 +1,55 @@
+# Dependencies
+<<<<<<< HEAD
+markdown:         kramdown
+highlighter:      rouge
+=======
+# markdown:         redcarpet
+#highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+>>>>>>> 52cb175a93ba091ed80045ceac115f2fa3065202
+
+# Setup
+title:            Hydeout
+tagline:          'A Jekyll theme'
+<<<<<<< HEAD
+description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+url:              https://fongandrew.github.io
+baseurl:          '/hydeout'
+                  # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+=======
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://xenakas.gitpage.com
+baseurl:          /
+>>>>>>> 52cb175a93ba091ed80045ceac115f2fa3065202
+
+author:
+  name:           'Andrew Fong'
+  url:            https://twitter.com/fongandrewc
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+<<<<<<< HEAD
+# Sidebar link settings
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+=======
+github:
+  repo:           https://github.com/xenakas/xenakas.github.io
+>>>>>>> 52cb175a93ba091ed80045ceac115f2fa3065202
