@@ -6,6 +6,7 @@ tags:
   - data science
   - JS
   - R
+ excerpt: "Anomaly Detection with the Normal Distribution ... "
 ---
 
 
