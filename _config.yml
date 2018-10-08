@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Xena's Blog
 tagline:          'Home'
-description:      'A collection of 5-min reads '
+description:      'et gaudium et solatium in litteris  '
 url:              https://xenakas.github.io
 #baseurl:          '/xenakas.github.io'
                   # the optional subpath of your site, e.g. "/blog"
