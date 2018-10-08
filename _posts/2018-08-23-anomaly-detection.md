@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Anomaly Detection
+excerpt: "Anomaly Detection with the Normal Distribution ... "
 tags:
   - anomalies
   - data science
   - JS
   - R
- excerpt: "Anomaly Detection with the Normal Distribution ... "
 ---
 
 
