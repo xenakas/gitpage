@@ -1,13 +1,13 @@
 ---
 layout: page
 title: About
+sidebar_link: true
 ---
 
-<p class="message">
-  Hi there. 
-</p>
-
-  Visit my [GitHub Page](https://github.com/xenakas). 
+You can: 
+* contact me by mail: xeniakasianova@gmail.com
+* visit my [GitHub Page](https://github.com/xenakas)
+* check my [CV](https://github.com/xenakas/xenakas.github.io/cv_kasianova.pdf)
 
 
 
