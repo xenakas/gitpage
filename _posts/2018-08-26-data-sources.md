@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Data Sources 
+excerpt: "Big Data: 33 Brilliant And Free Data Sources Anyone Can Use"
+
 ---
 
 
