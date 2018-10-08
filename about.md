@@ -5,8 +5,8 @@ title: About
 
 <p class="message">
   Hi there. 
-  You can visit my [GitHub Page](https://github.com/xenakas). 
 </p>
 
+  You can visit my [GitHub Page](https://github.com/xenakas). 
 
-sidebar_link: true
+
