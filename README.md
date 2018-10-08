@@ -3,20 +3,8 @@
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
 theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
 
-If you want to add pic:
-
-![Desktop](/_screenshots/3.png?raw=true)
-<img alt="Mobile home page" src="/_screenshots/2.png?raw=true" width="300px" />
 
 ### Usage
-
-Hydeout is available as the `jekyll-theme-hydeout` Ruby Gem.
-Add `gem "jekyll-theme-hydeout", "~> 3.4"` to your Gemfile and run
-`bundle install`.
-
-If you're installing on Github pages, you may also have to add
-`remote_theme: fongandrew/hydeout` to your `_config.yml`. [See the Github
-instructions for more details.](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/)
 
 Hydeout uses pagination, so if you have an `index.md`, you'll need to swap
 it with an `index.html` that uses the `index` layout:
@@ -31,15 +19,11 @@ title: Home
 You'll also need to add a setting to `_config.yml` telling Jekyll how many posts
 to include per page (e.g. `paginate: 5`).
 
-### Keep It Simple
+You can add pictures:
 
-In keeping with the original Hyde theme, Hydeout aims to keep the overall
-design lightweight and plugin-free. JavaScript is currently limited only
-to Disqus and Google Analytics (and is only loaded if you provide configuration
-variables).
+![Desktop](/_screenshots/3.png?raw=true)
+<img alt="Mobile home page" src="/_screenshots/2.png?raw=true" width="300px" />
 
-Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
-the CSS degrades into a single column layout.
 
 ### Customization
 
