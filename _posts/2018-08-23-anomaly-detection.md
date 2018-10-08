@@ -9,7 +9,7 @@ tags:
 ---
 
 
-# Anomaly Detection with the Normal Distribution
+### Anomaly Detection with the Normal Distribution
 
 - 68% of all values fall between [mean-σ, mean+σ]
 - 95% of all values fall between [mean-2*σ, mean+2*σ]
