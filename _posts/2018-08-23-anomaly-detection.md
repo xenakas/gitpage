@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Anomaly Detection
+tags:
+  - anomalies
+  - data science
+  - JS
+  - R
 ---
 
 
