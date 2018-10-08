@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+title:            Xena's Blog
+tagline:          'Home'
+description:      'A collection of 5-min reads '
 url:              https://xenakas.github.io
 #baseurl:          '/xenakas.github.io'
                   # the optional subpath of your site, e.g. "/blog"
@@ -15,8 +15,8 @@ url:              https://xenakas.github.io
                   # sidebar_blog_link below.
 
 author:
-  name:           'Xena'
-  url:            https://twitter.com/
+  name:           'Xenia Kasianova'
+  url:            https://xenakas.github.io
 
 paginate:         5
 # paginate_path:    '/page:num'
