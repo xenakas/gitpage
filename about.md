@@ -9,6 +9,7 @@ You can:
 * visit my [GitHub Page](https://github.com/xenakas)
 * check my [CV](https://github.com/xenakas/xenakas.github.io/blob/master/cv-xkasianova.pdf)
 
+<a href="https://github.com/xenakas/xenakas.github.io/blob/master/cv-xkasianova.pdf" download>Click to Download</a>
 
 
 
