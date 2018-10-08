@@ -7,6 +7,8 @@ title: About
   Hi there. 
 </p>
 
-  You can visit my [GitHub Page](https://github.com/xenakas). 
+  Visit my [GitHub Page](https://github.com/xenakas). 
+
+
 
 
