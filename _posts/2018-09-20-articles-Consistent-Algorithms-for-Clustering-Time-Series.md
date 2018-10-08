@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Consistent Algorithms For Clustering Time Series"
 excerpt_separator: "<!--more-->"
 categories:
   - Articles
