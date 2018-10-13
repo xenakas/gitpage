@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "NN"
@@ -17,6 +16,8 @@ tags:
 Real-valued Circuits
 
 Base Case: Single Gate in the Circuit
+
+<!--more-->
 
 1. Random Local Search
 2. Numerical Gradient
