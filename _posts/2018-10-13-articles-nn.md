@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NN"
+title: "Neural Network"
 excerpt_separator: "<!--more-->"
 categories:
   - Articles
