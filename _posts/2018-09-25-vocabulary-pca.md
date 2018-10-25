@@ -3,6 +3,7 @@ title: "PCA"
 layout: post
 excerpt: "Principal component analysis (PCA) is a... "
 mathjax: true
+use_math : true
 tags:
   - vocabulary 
   - pca
