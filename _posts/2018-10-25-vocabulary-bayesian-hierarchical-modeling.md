@@ -9,9 +9,6 @@ categories:
   - Vocabulary
 ---
 
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
 
 [Bayesian hierarchical modelling](https://en.m.wikipedia.org/wiki/Bayesian_hierarchical_modeling) is a statistical model 
@@ -38,4 +35,14 @@ Hierarchical modeling is used when information is available on several different
 The hierarchical form of analysis and organization helps in the understanding of multiparameter problems 
 and also plays an important role in developing computational strategies.
 
+Joint probability distribution for $\theta_{j}$  and $y$ can be rewritten as a product of the two 
+distributions that are often referred to as the **prior distribution** $P(\theta )$  and 
+the **sampling distribution** $P(y\vert \theta )$  respectively:
+
 $$ P(\theta, y) = P(\theta)P(y\vert\theta) $$
+
+So the posterior distribution will yield:
+
+$$ P(\theta)P(y\vert\theta)  = \dfrac{P(y\vert\theta) P(\theta)}{P(y)} $$
+
+
