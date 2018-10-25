@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Consistent Algorithms For Clustering Time Series"
+title: "Forecasting Economic Aggregates Using Dynamic Component Grouping"
 excerpt_separator: "<!--more-->"
 categories:
   - Articles
