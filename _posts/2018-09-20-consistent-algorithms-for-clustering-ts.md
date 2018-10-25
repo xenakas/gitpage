@@ -9,9 +9,6 @@ tags:
   - ml
 ---
 
-
-
-
 The assumption that a given time series is stationary ergodic is one of the most general assumptions used in statistics; in particular, it allows for arbitrary long-range serial dependence, and sub- sumes most of the nonparametric as well as modelling assumptions used in the literature on clustering time series, such as i.i.d., (hidden) Markov, or mixing time series.
 
 <!--more-->
