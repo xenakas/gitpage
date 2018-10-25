@@ -28,6 +28,12 @@ The Fisher-information matrix is used to calculate the covariance matrices assoc
 with maximum-likelihood estimates. It can also be used in the formulation of test statistics, 
 such as the **Wald test**.
 
+The Fisher information has been used to find bounds on the accuracy of neural codes. 
+It is also used in machine learning techniques such as elastic weight consolidation, 
+which reduces catastrophic forgetting in artificial neural networks.
+
+
+
 <!--more-->
 
 The Fisher information is a way of measuring the amount of information that an observable 
@@ -59,7 +65,7 @@ $$ \mathcal {I} (\theta )= E \left[ \left( {\frac{\partial }{\partial \theta }} 
 
 $$ = \int \left({\frac {\partial }{\partial \theta }}\log f(x;\theta )\right)^{2} f(x;\theta ) dx $$ 
 
-If $$log f(x; \theta)$$  is twice differentiable with respect to θ,
+If $$\log f(x; \theta)$$  is twice differentiable with respect to θ,
 and under certain regularity conditions, then the Fisher information may 
 be seen as the curvature of the support curve (the graph of the log-likelihood). 
 
@@ -67,5 +73,45 @@ Near the maximum likelihood estimate, low Fisher information therefore indicates
 the maximum appears "blunt", that is, the maximum is shallow and there are many 
 nearby values with a similar log-likelihood. Conversely, 
 high Fisher information indicates that the maximum is sharp.
+
+Under certain regularity conditions, the Fisher information matrix may also be written as:
+
+$$ [\mathcal{I}(\theta)]_{i,j} = - E \left[{\frac {\partial^{2}}{\partial\theta_{i} \partial \theta_{j}}} \log f(X;\theta ) \vert \theta \right] $$
+
+The result is interesting in several ways:
+- it can be derived as the Hessian of the relative entropy.
+- it can be understood as a metric induced from the Euclidean metric, after appropriate change of variable.
+- it is the key part of the proof of Wilks’ theorem, which allows confidence region estimates for maximum likelihood estimation  without needing the Likelihood Principle.
+
+
+**Chain rule:** Similar to the entropy or mutual information, the Fisher information 
+also possesses a chain rule decomposition: 
+
+$$ \mathcal{I}_{X,Y}(\theta)=\mathcal{I}_{X}(\theta )+\mathcal {I}_{Y\mid X}(\theta) $$
+
+### Relation to relative entropy
+
+Fisher information is related to relative entropy. Consider a family of probability distributions 
+$$f(x;\theta )$$  where $$ \theta $$  is a parameter which lies in a range of values. 
+Then the relative entropy, or Kullback–Leibler divergence, between two distributions 
+in the family can be written as
+
+$$ D(\theta \| \theta' ) = \int f(x;\theta )\log{\frac{f(x;\theta)}{f(x;\theta ')}}dx $$ 
+
+while the Fisher information matrix is:
+
+$$ [{\mathcal {I}}(\theta)]_{ij} = \left({\frac {\partial^{2}}{\partial \theta'_{i}\partial \theta'_{j}}}D(\theta \vert \theta')\right)_{\theta'=\theta} $$ 
+
+If $$\theta$$   is fixed, then the relative entropy between two distributions 
+of the same family is minimized at $$\theta'=\theta$$. 
+Thus the Fisher information represents the curvature of the relative entropy.
+
+One advantage Kullback-Leibler information has over Fisher information is that it is not affected by changes in parameterization. Another advantage is that Kullback-Leibler information can be used even if the distributions under consideration are not all members of a parametric family.
+Another advantage to Kullback-Leibler information is that no smoothness conditions on the densities are needed.
+
+
+
+
+
 
 
