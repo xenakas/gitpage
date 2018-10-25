@@ -10,7 +10,7 @@ categories:
   - Econometrics
 ---
 
-
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 [Bayesian hierarchical modelling](https://en.m.wikipedia.org/wiki/Bayesian_hierarchical_modeling) is a statistical model 
 written in multiple levels that estimates the parameters of the posterior distribution using the Bayesian method.
