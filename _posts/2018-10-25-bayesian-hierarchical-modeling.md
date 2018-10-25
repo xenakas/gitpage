@@ -9,6 +9,10 @@ categories:
   - Vocabulary
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 
 [Bayesian hierarchical modelling](https://en.m.wikipedia.org/wiki/Bayesian_hierarchical_modeling) is a statistical model 
 written in multiple levels that estimates the parameters of the posterior distribution using the Bayesian method.
@@ -34,4 +38,4 @@ Hierarchical modeling is used when information is available on several different
 The hierarchical form of analysis and organization helps in the understanding of multiparameter problems 
 and also plays an important role in developing computational strategies.
 
-$$ P(\theta, y) = P(\theta)P(y|\theta) $$
+$$ P(\theta, y) = P(\theta)P(y\vert\theta) $$
