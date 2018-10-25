@@ -12,14 +12,13 @@ tags:
 ---
 
 
-# [Forecasting Economic Aggregates Using Dynamic Component Grouping](https://mpra.ub.uni-muenchen.de/81585/1/MPRA_paper_81585.pdf)
+Marcus P. A. Cobb [Forecasting Economic Aggregates Using Dynamic Component Grouping](https://mpra.ub.uni-muenchen.de/81585/1/MPRA_paper_81585.pdf)
 
-## Marcus P. A. Cobb
+**Abstract**:
 
-### Abstract
+In terms of aggregate accuracy, whether it is worth the effort of modelling a disaggregate process, instead of forecasting the aggregate directly, depends on the properties of the data. Forecasting the aggregate directly and forecasting each of the components separately, however, are not the only options. This paper develops a framework to forecast an aggregate that dynamically chooses groupings of com- ponents based on the properties of the data to benefit from both the advantages of aggregation and disaggregation. With this objective in mind, the dimension of the problem is reduced by selecting a subset of possible groupings through the use of agglomerative hierarchical clustering. The definitive forecast is then produced based on this subset. The results from an empirical application using CPI data for France, Germany and the UK suggest that the grouping methods can improve both aggregate and disaggregate accuracy.
 
-In terms of aggregate accuracy, whether it is worth the effort of modelling a disaggregate process, instead of forecasting the aggregate directly, depends on the properties of the data. Forecasting the aggregate directly and forecasting each of the components separately, however, are not the only options. <!--more-->  This paper develops a framework to forecast an aggregate that dynamically chooses groupings of com- ponents based on the properties of the data to benefit from both the advantages of aggregation and disaggregation. With this objective in mind, the dimension of the problem is reduced by selecting a subset of possible groupings through the use of agglomerative hierarchical clustering. The definitive forecast is then produced based on this subset. The results from an empirical application using CPI data for France, Germany and the UK suggest that the grouping methods can improve both aggregate and disaggregate accuracy.
-
+<!--more--> 
 
 ### Summary 
 
