@@ -34,4 +34,4 @@ Hierarchical modeling is used when information is available on several different
 The hierarchical form of analysis and organization helps in the understanding of multiparameter problems 
 and also plays an important role in developing computational strategies.
 
-$$P(\theta, y) = P(\theta)P(y|\theta)$$
+$$ P(\theta, y) = P(\theta)P(y|\theta) $$
