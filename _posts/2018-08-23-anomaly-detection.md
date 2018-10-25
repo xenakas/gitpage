@@ -16,9 +16,9 @@ Anomaly Detection with the Normal Distribution, with the Poisson Distribution, w
 
 ### [Anomaly Detection with the Normal Distribution](https://anomaly.io/anomaly-detection-normal-distribution)
 
-- 68% of all values fall between $$\[mean-\sigma, mean+\sigma\]$$
-- 95% of all values fall between $$\[mean-2*\sigma, mean+2*\sigma\]$$
-- 99,7% of all values fall between $$\[mean-3*\sigma, mean+3*\sigma\]$$
+- 68% of all values fall between $$[mean-\sigma, mean+\sigma]$$
+- 95% of all values fall between $$[mean-2*\sigma, mean+2*\sigma]$$
+- 99,7% of all values fall between $$[mean-3*\sigma, mean+3*\sigma]$$
 
 The last 3 rules are also known as the [68–95–99.7 rule](https://en.m.wikipedia.org/wiki/68–95–99.7_rule) or the “three-sigma rule of thumb”.
 
