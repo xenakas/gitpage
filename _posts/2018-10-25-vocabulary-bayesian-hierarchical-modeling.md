@@ -35,9 +35,9 @@ Hierarchical modeling is used when information is available on several different
 The hierarchical form of analysis and organization helps in the understanding of multiparameter problems 
 and also plays an important role in developing computational strategies.
 
-Joint probability distribution for $\theta_{j}$  and $y$ can be rewritten as a product of the two 
-distributions that are often referred to as the **prior distribution** $P(\theta )$  and 
-the **sampling distribution** $P(y\vert \theta )$  respectively:
+Joint probability distribution for $$\theta_{j}$$  and $$y$$ can be rewritten as a product of the two 
+distributions that are often referred to as the **prior distribution** $$P(\theta )$$  and 
+the **sampling distribution** $$P(y\vert \theta )$$  respectively:
 
 $$ P(\theta, y) = P(\theta)P(y\vert\theta) $$
 
