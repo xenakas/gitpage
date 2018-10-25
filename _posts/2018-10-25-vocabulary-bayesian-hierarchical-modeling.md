@@ -5,8 +5,9 @@ excerpt_separator: "<!--more-->"
 tags:
   - bayesian
   - hierarchical
+  - vocabulary
 categories:
-  - Vocabulary
+  - Econometrics
 ---
 
 
