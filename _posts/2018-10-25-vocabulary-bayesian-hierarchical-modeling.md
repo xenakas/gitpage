@@ -73,7 +73,7 @@ The Bayesian hierarchical model contains the following stages:
 
 The posterior distribution is proportional to:
 
-$$  P(\phi ,\theta_{j}\mid y)\propto P(y_{j}\mid \theta_{j},\phi )P(\theta_{j},\phi ) = P(\phi ,\theta_{j}\mid y)\propto P(y_{j}\mid \theta_{j})P(\theta_{j}\mid \phi )P(\phi )$$
+$$  P(\phi ,\theta_{j}\mid y)\propto P(y_{j}\mid \theta_{j},\phi )P(\theta_{j},\phi ) = P(y_{j}\mid \theta_{j})P(\theta_{j}\mid \phi )P(\phi )$$
 
 
 
