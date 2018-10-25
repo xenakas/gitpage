@@ -7,8 +7,7 @@ categories:
 tags:
   - clustering
   - forecasts 
-  - hierarchical clustering
-  - hierarchical forecasting
+  - hierarchical 
 ---
 
 
