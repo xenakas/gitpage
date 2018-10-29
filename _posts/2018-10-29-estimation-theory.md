@@ -84,7 +84,7 @@ An alternative way of formulating an estimator within Bayesian statistics
 is maximum a posteriori estimation
 
 Suppose an unknown parameter $$\theta$$  is known to have a prior distribution $$ \pi $$. 
-Let $$\widehat {\theta }}(x)$$ be an estimator of $$\theta$$, and let 
+Let $$ \hat{\theta }(x) $$ be an estimator of $$\theta$$, and let 
 $$ L(\theta ,{\widehat {\theta }})$$ be a loss function, 
 such as squared error. 
 The Bayes risk of $$ {\widehat {\theta }}$$  is defined as $$E_{\pi }(L(\theta ,{\widehat {\theta }}))$$ ,
@@ -209,7 +209,7 @@ least variance leads to good results in most practical settings—making MVUE a 
 starting point for a broad range of analyses—a targeted specification may perform 
 better for a given problem; thus, MVUE is not always the best stopping point.
 
-An unbiased estimator $$ \delta (X_{1},X_{2},\ldots ,X_{n})}$$ of  $$ g(\theta )$$  is UMVUE 
+An unbiased estimator $$ \delta (X_{1},X_{2},\ldots ,X_{n})  $$ of  $$ g(\theta )$$  is UMVUE 
 if $$ \forall \theta \in \Omega $$
 
 $$ \operatorname {var} (\delta (X_{1},X_{2},\ldots ,X_{n}))\leq \operatorname {var} ({\tilde {\delta }}(X_{1},X_{2},\ldots ,X_{n}))$$
@@ -263,7 +263,7 @@ $$ \operatorname {MSE} = \operatorname {tr} \left\{\operatorname {E} \{({\hat {x
 
 
 When $$ x$$  is a scalar variable, the MSE expression simplifies to 
-$$ \operatorname {E} \left\{({\hat {x}}-x)^{2}\right\}} $$.
+$$ \operatorname {E} \left\{({\hat {x}}-x)^{2}\right\} $$.
 
 Note that MSE can equivalently be defined in other ways, since
 
@@ -323,7 +323,7 @@ $$ C_{e_{t+1}}$$   as more observations become available lead to recursive estim
 The matrix $$ K$$  is often referred to as the gain factor. 
 The repetition of these three steps as more data becomes available leads to an 
 iterative estimation algorithm. The generalization of this idea to non-stationary cases
-gives rise to the $$Kalman filter$$.
+gives rise to the **Kalman filter**.
 
 
 
@@ -340,26 +340,22 @@ MAP estimation can therefore be seen as a **regularization of ML estimation**
 
 
 
-\begin{align}
-
+$$
 \theta_{MLE} &= \mathop{\rm arg\,max}\limits_{\theta} P(X \vert \theta) \\[10pt]
              &= \mathop{\rm arg\,max}\limits_{\theta} \prod_i P(x_i \vert \theta)
 
-\end{align}
-
+$$
 
 If we replace the likelihood in the MLE formula above with the posterior, we get:
 
 
-\begin{align}
-
+$$
 \theta_{MAP} &= \mathop{\rm arg\,max}\limits_{\theta} P(X \vert \theta) P(\theta) \\[10pt]
              &= \mathop{\rm arg\,max}\limits_{\theta} \log P(X \vert \theta) P(\theta) \\[10pt]
              &= \mathop{\rm arg\,max}\limits_{\theta} \log \prod_i P(x_i \vert \theta) P(\theta) \\[10pt]
              &= \mathop{\rm arg\,max}\limits_{\theta} \sum_i \log P(x_i \vert \theta) P(\theta)
 
-\end{align}
-
+$$
 
 
 
