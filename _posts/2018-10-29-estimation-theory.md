@@ -340,22 +340,20 @@ MAP estimation can therefore be seen as a **regularization of ML estimation**
 
 
 
-$$
-\theta_{MLE} &= \mathop{\rm arg\,max}\limits_{\theta} P(X \vert \theta) \\[10pt]
-             &= \mathop{\rm arg\,max}\limits_{\theta} \prod_i P(x_i \vert \theta)
+$$ \theta_{MLE}  = \mathop{\rm arg\,max}\limits_{\theta} P(X \vert \theta) $$
 
-$$
+$$ = \mathop{\rm arg\,max}\limits_{\theta} \prod_i P(x_i \vert \theta)$$
 
 If we replace the likelihood in the MLE formula above with the posterior, we get:
 
 
-$$
-\theta_{MAP} &= \mathop{\rm arg\,max}\limits_{\theta} P(X \vert \theta) P(\theta) \\[10pt]
-             &= \mathop{\rm arg\,max}\limits_{\theta} \log P(X \vert \theta) P(\theta) \\[10pt]
-             &= \mathop{\rm arg\,max}\limits_{\theta} \log \prod_i P(x_i \vert \theta) P(\theta) \\[10pt]
-             &= \mathop{\rm arg\,max}\limits_{\theta} \sum_i \log P(x_i \vert \theta) P(\theta)
+$$ \theta_{MAP} = \mathop{\rm arg\,max}\limits_{\theta} P(X \vert \theta) P(\theta) $$
 
-$$
+$$           = \mathop{\rm arg\,max}\limits_{\theta} \log P(X \vert \theta) P(\theta) $$
+
+$$             = \mathop{\rm arg\,max}\limits_{\theta} \log \prod_i P(x_i \vert \theta) P(\theta) $$\
+
+$$ = \mathop{\rm arg\,max}\limits_{\theta} \sum_i \log P(x_i \vert \theta) P(\theta)$$
 
 
 
