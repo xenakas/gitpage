@@ -48,6 +48,8 @@ $$ {\hat {\theta }}\in \{{\underset {\theta \in \Theta }{\operatorname {arg\,max
 
 if a maximum exists.
 
+
+
 In practice, it is often convenient to work with the natural logarithm of 
 the likelihood function, called the log-likelihood:
 
