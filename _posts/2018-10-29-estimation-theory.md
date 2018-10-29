@@ -169,17 +169,17 @@ of this can be reached by showing that *RLS methods are often equivalent to prio
 solution to the least-squares problem.*
 
 **Tikhonov regularization**
-(or ridge regression) adds a constraint that $$ \|\|\beta \|\|^{2}$$, the L2-norm of the parameter vector, 
+(or ridge regression) adds a constraint that $$ \|\beta \|^{2}$$, the L2-norm of the parameter vector, 
 is not greater than a given value. Equivalently, it may solve an unconstrained
-minimization of the least-squares penalty with $$ \alpha \|\|\beta \|\|^{2}$$  added,
+minimization of the least-squares penalty with $$ \alpha \|\beta \|^{2}$$  added,
 where $$\alpha $$  is a constant (this is the Lagrangian form of the constrained problem). 
 In a **Bayesian context**, this is equivalent to placing a zero-mean normally 
 distributed prior on the parameter vector.
 
 **Lasso method**  (least absolute shrinkage and selection operator)  uses the constraint 
-that $$ \|\|\beta \|\|^{2}$$, the L1-norm of the parameter vector, 
+that $$ \|\beta \|^{2}$$, the L1-norm of the parameter vector, 
 is no greater than a given value.  (As above, this is equivalent to an unconstrained 
-minimization of the least-squares penalty with $$ \alpha  \|\|\beta \|\|$$  added.) 
+minimization of the least-squares penalty with $$ \alpha  \|\beta  \|$$  added.) 
 In a **Bayesian context**, this is equivalent to placing a zero-mean Laplace
 prior distribution on the parameter vector.  
 The optimization problem may be solved using quadratic programming or more general
