@@ -44,7 +44,7 @@ a set which depends on the parameter vector.
 
 The method defines a maximum likelihood estimate:
 
-$$ {\hat {\theta }}\in \{{\underset {\theta \in \Theta }{\operatorname {arg\,max} }}\ {\mathcal {L}}(\theta \,;x)\}$$
+$$ {\hat{\theta }} \in \{ { \operatorname {arg\,max}_{\theta \in \Theta } } {\mathcal {L}}(\theta \,;x)\}$$
 
 if a maximum exists.
 
