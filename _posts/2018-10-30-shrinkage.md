@@ -26,6 +26,8 @@ whereby a naive or raw estimate is improved by combining it with other informati
 (see shrinkage estimator). 
 
 
+<!--more-->
+
 
 
 [Shrinking data can result in:]((https://www.statisticshowto.datasciencecentral.com/shrinkage-estimator/))
@@ -42,8 +44,6 @@ set used for fitting. Specifically, r-squared “shrinks.”
 
 
 
-
-<!--more-->
 
 
 A [shrinkage estimator](https://en.wikipedia.org/wiki/Shrinkage_estimator)  is an estimator that, 
