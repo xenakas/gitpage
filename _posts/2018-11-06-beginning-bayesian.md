@@ -24,9 +24,6 @@ categories:
 
 
 
-<title>beginning_bayes</title>
-
-
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
