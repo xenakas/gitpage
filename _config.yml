@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Xena's Notes
+title:            notebook
 tagline:          'Home'
 description:      'epistula nоn erubescit   '
 url:              https://xenakas.github.io
