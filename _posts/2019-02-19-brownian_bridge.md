@@ -53,7 +53,7 @@ is also a BM. Also, $$\tilde{B}(t)$$ is independent of $$\{B(s), s ∈ [0, T]\}$
 
 If $$F$$ is continuous, then
 
-$$\sqrt(n) \sup_{t\in R} |F_n(t) − F(t)| \to^{(d)}_{n\to\infty} \sup_{0\leq t\leq 1} |B(t)|$$ 
+$$\sqrt{n} \sup_{t\in R} |F_n(t) − F(t)| \to^{(d)}_{n\to\infty} \sup_{0\leq t\leq 1} |B(t)|$$ 
 
 where $$B$$ is a Brownian bridge on $$[0, 1]$$.
 
