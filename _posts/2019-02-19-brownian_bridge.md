@@ -49,3 +49,11 @@ is also a BM. Also, $$\tilde{B}(t)$$ is independent of $$\{B(s), s ∈ [0, T]\}$
 2. BB could reduce the simulation paths, this reduces computation effort, especially when the underlying factors are a lot (say 20-30).
 3. BB could reduce the computation effort on path-dependent derivatives. For example, during pricing of a barrier option, a path could be simulated with monthly scenarios of the factors; then BB could be used to estimate the probability of the path "knock-out" of the barrier
 
+[Donsker’s Theorem:](https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/lecture-slides/MIT18_650F16_Testing_GF.pdf)
+
+If $$F$$ is continuous, then
+
+$$\sqrt(n) \sup_{t\in R} |F_n(t) − F(t)| \to^{(d)}_{n\to\infty} \sup_{0\leq t\leq 1} |B(t)|$$ 
+
+where $$B$$ is a Brownian bridge on $$[0, 1]$$.
+
