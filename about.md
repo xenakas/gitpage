@@ -4,8 +4,8 @@ title: About
 sidebar_link: true
 ---
 
-* contact me by mail: xeniakasianova@gmail.com
-* visit my [GitHub Page](https://github.com/xenakas)
-* check my [CV](https://github.com/xenakas/xenakas.github.io/blob/master/cv-xkasianova.pdf)
+* e-mail: xeniakasianova@gmail.com
+* [GitHub Page](https://github.com/xenakas)
+* [CV](https://raw.githubusercontent.com/xenakas/xenakas.github.io/master/CV_XKasianova.pdf)
 
 
